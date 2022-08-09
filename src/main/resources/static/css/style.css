@@ -1,1 +1,30 @@
 @charset "ISO-8859-1";
+
+
+.body1{
+	width: 50%;
+	margin: 0px auto;
+	background-color: #dee3e9;
+}
+
+.body2{
+	background-color: #dee3e9
+}
+
+.header{
+	text-align: center;
+	margin-top: 100px;
+	padding: 20px;
+}
+
+.details{
+	text-align: center;
+	margin-top: 100px;
+	
+}
+
+.details h1{
+	margin-bottom: 50px;
+	border-bottom: 1px solid grey;
+	padding:5px;
+}

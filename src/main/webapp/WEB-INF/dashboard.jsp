@@ -32,7 +32,7 @@
 						<c:forEach var = "book" items = "${bookList}">
 						<tr>
 							<td><c:out value= "${book.id}"></c:out></td>
-							<td> <a href="<c:url value="/books/{id}"/>"><c:out value= "${book.title}"></c:out></a></td>
+							<td> <a href="<c:url value="/books/${book.id}"/>"><c:out value= "${book.title}"></c:out></a></td>
 							<td><c:out value= "${book.language}"></c:out></td>
 							<td><c:out value= "${book.pages}"></c:out></td>
 						</tr>
